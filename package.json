@@ -1,0 +1,26 @@
+{
+  "name": "trafficjam",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/trafficjam.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "KPS <info@kps.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-cli": "^0.1.1",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^0.3.6",
+    "karma-jasmine-html-reporter-livereload": "^1.0.0",
+    "karma-jasmine-runner-reporter": "^0.2.0"
+  }
+}
